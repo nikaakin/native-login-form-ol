@@ -65,6 +65,7 @@ const RootStack = () => {
       }
     };
   }, []);
+
   return (
     <NavigationContainer>
       {authState.isAuthenticated ? (
